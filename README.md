@@ -2,9 +2,10 @@
 **Resources Generation Office System**
 
 By: Group 4 - BSIT 2101
-Arquillo, Sheena Mae
-Angeles, April Haizel
-Banares, Faith Anne
+
+- Arquillo, Sheena Mae
+- Angeles, April Haizel
+- Banares, Faith Anne
 
 ----------------------------------------
 ### I. Hypothesis
@@ -142,4 +143,7 @@ enhancements in data management practices.
 ### VII. Flowchart and ERD
 [Flowchart](https://drive.google.com/file/d/1jzfBrCtnLlm6DJeCTgt00sZ7vTAsYsuJ/view?usp=sharing)
 [ERD](https://drive.google.com/file/d/1t0M9dmYSzVfEogpwSJdRJbrU_1lZPcgt/view?usp=sharing)
+
+### VIII. .exe file
+[RGO.exe](https://drive.google.com/drive/folders/18kseyVo9h9x3yiczhdKhKqNvz2_Qg2Re?usp=sharing)
 
