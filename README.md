@@ -45,76 +45,75 @@ data retrieval, contributing to the overall success of the project.
 ### III.  Query Used
 These queries are designed to retrieve specific information from the database "rgo_lipa":
 
-1. *ADMIN_PORTAL - List of Orders:*
-- This query fetches details of orders placed by joining the students, items, and typeofuniform tables
+1. ADMIN_PORTAL - List of Orders:
+	- This query fetches details of orders placed by joining the students, items, and typeofuniform tables
 based on matching sr_code and order_items_id. It displays the student details along with order-specific
 information like date, types of items ordered, and uniform details.
-2. *FEEDBACKS:*
-- Retrieves all entries from the Feedback table sorted in ascending order based on SR_CODE.
-3. *ITEMS:*
-- Fetches all records from the Items table sorted in ascending order based on SR_CODE.
-4. *PAYMENTS:*
-- Retrieves all payment records from the Payment table sorted in ascending order based on SR_CODE.
-5. *STAFFS:*
-- Retrieves all staff details from the Staff table sorted in ascending order based on STAFF_ID.
-6. *STUDENT_List of Orders:*
-- Allows students to view their orders by fetching details from the students, items, and typeofuniform
+2. FEEDBACKS:
+	- Retrieves all entries from the Feedback table sorted in ascending order based on SR_CODE.
+3. ITEMS:
+	- Fetches all records from the Items table sorted in ascending order based on SR_CODE.
+4. PAYMENTS
+	- Retrieves all payment records from the Payment table sorted in ascending order based on SR_CODE.
+5. STAFFS:
+	- Retrieves all staff details from the Staff table sorted in ascending order based on STAFF_ID.
+6. STUDENT_List of Orders:
+	- Allows students to view their orders by fetching details from the students, items, and typeofuniform
 tables. It shows the orders made by each student along with specific order details.
-7. *STUDENTS - list of students who ordered:*
-- Retrieves all student records from the students table sorted in ascending order based on SR_CODE.
-8. *UNIFORM:*
-- Fetches all records from the TypeOfUniform table sorted in ascending order based on
+7. STUDENTS - list of students who ordered:
+	- Retrieves all student records from the students table sorted in ascending order based on SR_CODE.
+8. UNIFORM:
+	- Fetches all records from the TypeOfUniform table sorted in ascending order based on
 ORDER_UNIFORM_ID.
 
 
 ### V. Buttons Code
 
 1. Items Table Operations:
-- *Insert:*
-- Inserts a new record into the Items table with specified attributes like ORDER_ITEMS_ID,
+-Insert:
+ Inserts a new record into the Items table with specified attributes like ORDER_ITEMS_ID,
 SR_CODE, DATE_OF_ORDER, UNIFORM_PINS, ID_LACE, and PAYMENT_ID.
-- *Select:*
-- Fetches data from an unspecified table where a specific column matches a given value.
-- *Update:*
-- Modifies an existing record in the Items table based on the ORDER_ITEMS_ID.
+-Select:
+Fetches data from an unspecified table where a specific column matches a given value.
+- Update:
+Modifies an existing record in the Items table based on the ORDER_ITEMS_ID.
 2. Payment Table Operations:
-- *Insert:*
-- Inserts a new record into the Payment table with attributes like PAYMENT_ID, SR_CODE,
+- Insert: Inserts a new record into the Payment table with attributes like PAYMENT_ID, SR_CODE,
 DATE_OF_ORDER, AMOUNT, and STAFF_ID.
-- *Select:*
-- Similar to the previous case, it fetches data from an unspecified table based on a specific column's
+- Select:
+ Similar to the previous case, it fetches data from an unspecified table based on a specific column's
 value.
-- *Update:*
-- Updates an existing record in the Payment table based on the PAYMENT_ID.
+- Update:
+ Updates an existing record in the Payment table based on the PAYMENT_ID.
 3. Staff Table Operations:
-- *Insert:*
-- Adds a new record to the Staff table with attributes such as STAFF_ID, STAFF_NAME,
+- Insert:
+Adds a new record to the Staff table with attributes such as STAFF_ID, STAFF_NAME,
 STAFF_POSITION, EMAIL, and PHONE.
-- *Update:*
-- Modifies an existing staff record in the Staff table based on the STAFF_ID.
-- *Delete:*
-- Deletes a staff record from the Staff table based on the STAFF_ID.
-- *Select:*
-- Fetches all records from the Staff table.
+-Update:
+ Modifies an existing staff record in the Staff table based on the STAFF_ID.
+-Delete:
+ Deletes a staff record from the Staff table based on the STAFF_ID.
+-Select:
+Fetches all records from the Staff table.
 4. Students Table Operations:
-- *Insert:*
-- Inserts a new record into the Students table with attributes like SR_CODE,
+-Insert:
+ Inserts a new record into the Students table with attributes like SR_CODE,
 COLLEGE_DEPARTMENT, STUDENT_NAME, EMAIL, PHONE, and DATE_OF_ORDER.
-- *Update:*
-- Modifies an existing student record in the Students table based on SR_CODE and
+-Update:
+Modifies an existing student record in the Students table based on SR_CODE and
 DATE_OF_ORDER.
-- *Delete:*
-- Deletes a student record from the Students table based on SR_CODE and DATE_OF_ORDER.
-- *Select:*
-- Fetches all records from the Students table.
-- *Delete from Items:*
-- Deletes records from the Items table based on SR_CODE and DATE_OF_ORDER.
+-Delete:
+Deletes a student record from the Students table based on SR_CODE and DATE_OF_ORDER.
+-Select:
+ Fetches all records from the Students table.
+- Delete from Items:
+ Deletes records from the Items table based on SR_CODE and DATE_OF_ORDER.
 5. TypeOfUniform Table Operations:
-- *Insert:*
-- Inserts a new record into the TypeOfUniform table with attributes like ORDER_UNIFORM_ID,
+-Insert:
+ Inserts a new record into the TypeOfUniform table with attributes like ORDER_UNIFORM_ID,
 SR_CODE, DATE_OF_ORDER, WHITE_FABRIC, CHECKERED, PANTS, PE, and PAYMENT_ID.
-- *Update:*
-- Updates an existing record in the TypeOfUniform table based on ORDER_UNIFORM_ID.
+-Update:
+ Updates an existing record in the TypeOfUniform table based on ORDER_UNIFORM_ID.
 The provided SQL commands cover a range of functionalities, including insertion, deletion,
 updating, and retrieval of data from different tables within the database. These operations can be
 used for managing staff, students, payments, items, and uniform-related records in the database.
@@ -126,10 +125,10 @@ database application. The application is now fully operational, providing RGO wi
 to manage their data efficiently.
 
 Achievements
-• App Development: Successfully developed a comprehensive database application tailored
+- App Development: Successfully developed a comprehensive database application tailored
 to RGO's requirements.
-• Data Retrieval: Implemented a robust system for organizing and retrieving data effectively.
-• Operational Impact: The completed application is poised to make a positive impact on
+- Data Retrieval: Implemented a robust system for organizing and retrieving data effectively.
+- Operational Impact: The completed application is poised to make a positive impact on
 RGO's operations by streamlining their data management processes.
 
 ___-Conclusion___
