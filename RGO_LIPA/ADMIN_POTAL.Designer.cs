@@ -37,7 +37,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ADMIN_POTAL));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -66,10 +65,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.image_removebg_preview__14_1;
-            pictureBox1.Location = new Point(14, 16);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(104, 49);
+            pictureBox1.Size = new Size(91, 37);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -77,7 +75,6 @@
             // btnPrintStudent
             // 
             btnPrintStudent.BackColor = Color.Transparent;
-            btnPrintStudent.BorderRadius = 23;
             btnPrintStudent.CustomizableEdges = customizableEdges1;
             btnPrintStudent.DisabledState.BorderColor = Color.DarkGray;
             btnPrintStudent.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -86,11 +83,12 @@
             btnPrintStudent.FillColor = Color.Transparent;
             btnPrintStudent.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnPrintStudent.ForeColor = Color.FromArgb(209, 24, 45);
-            btnPrintStudent.Location = new Point(0, 85);
-            btnPrintStudent.Margin = new Padding(3, 4, 3, 4);
+            btnPrintStudent.HoverState.FillColor = Color.FromArgb(209, 24, 45);
+            btnPrintStudent.HoverState.ForeColor = Color.White;
+            btnPrintStudent.Location = new Point(0, 64);
             btnPrintStudent.Name = "btnPrintStudent";
             btnPrintStudent.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnPrintStudent.Size = new Size(231, 64);
+            btnPrintStudent.Size = new Size(202, 48);
             btnPrintStudent.TabIndex = 1;
             btnPrintStudent.Text = "Students";
             btnPrintStudent.Click += btnPrintStudent_Click;
@@ -98,7 +96,6 @@
             // btnPrintItems
             // 
             btnPrintItems.BackColor = Color.Transparent;
-            btnPrintItems.BorderRadius = 23;
             btnPrintItems.CustomizableEdges = customizableEdges3;
             btnPrintItems.DisabledState.BorderColor = Color.DarkGray;
             btnPrintItems.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -107,11 +104,12 @@
             btnPrintItems.FillColor = Color.Transparent;
             btnPrintItems.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnPrintItems.ForeColor = Color.FromArgb(209, 24, 45);
-            btnPrintItems.Location = new Point(0, 243);
-            btnPrintItems.Margin = new Padding(3, 4, 3, 4);
+            btnPrintItems.HoverState.FillColor = Color.FromArgb(209, 24, 45);
+            btnPrintItems.HoverState.ForeColor = Color.White;
+            btnPrintItems.Location = new Point(0, 226);
             btnPrintItems.Name = "btnPrintItems";
             btnPrintItems.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnPrintItems.Size = new Size(231, 64);
+            btnPrintItems.Size = new Size(202, 48);
             btnPrintItems.TabIndex = 2;
             btnPrintItems.Text = "Item Orders";
             btnPrintItems.Click += btnPrintItems_Click;
@@ -119,7 +117,6 @@
             // btnPrintPayments
             // 
             btnPrintPayments.BackColor = Color.Transparent;
-            btnPrintPayments.BorderRadius = 23;
             btnPrintPayments.CustomizableEdges = customizableEdges5;
             btnPrintPayments.DisabledState.BorderColor = Color.DarkGray;
             btnPrintPayments.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -128,11 +125,12 @@
             btnPrintPayments.FillColor = Color.Transparent;
             btnPrintPayments.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnPrintPayments.ForeColor = Color.FromArgb(209, 24, 45);
-            btnPrintPayments.Location = new Point(0, 404);
-            btnPrintPayments.Margin = new Padding(3, 4, 3, 4);
+            btnPrintPayments.HoverState.FillColor = Color.FromArgb(209, 24, 45);
+            btnPrintPayments.HoverState.ForeColor = Color.White;
+            btnPrintPayments.Location = new Point(3, 118);
             btnPrintPayments.Name = "btnPrintPayments";
             btnPrintPayments.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnPrintPayments.Size = new Size(231, 64);
+            btnPrintPayments.Size = new Size(202, 48);
             btnPrintPayments.TabIndex = 3;
             btnPrintPayments.Text = "Payments";
             btnPrintPayments.Click += btnPrintPayments_Click;
@@ -140,7 +138,6 @@
             // btnPrintUni
             // 
             btnPrintUni.BackColor = Color.Transparent;
-            btnPrintUni.BorderRadius = 23;
             btnPrintUni.CustomizableEdges = customizableEdges7;
             btnPrintUni.DisabledState.BorderColor = Color.DarkGray;
             btnPrintUni.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -149,11 +146,12 @@
             btnPrintUni.FillColor = Color.Transparent;
             btnPrintUni.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnPrintUni.ForeColor = Color.FromArgb(209, 24, 45);
-            btnPrintUni.Location = new Point(0, 163);
-            btnPrintUni.Margin = new Padding(3, 4, 3, 4);
+            btnPrintUni.HoverState.FillColor = Color.FromArgb(209, 24, 45);
+            btnPrintUni.HoverState.ForeColor = Color.White;
+            btnPrintUni.Location = new Point(-2, 172);
             btnPrintUni.Name = "btnPrintUni";
             btnPrintUni.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnPrintUni.Size = new Size(231, 64);
+            btnPrintUni.Size = new Size(202, 48);
             btnPrintUni.TabIndex = 4;
             btnPrintUni.Text = "Uniform Orders";
             btnPrintUni.Click += btnPrintUni_Click;
@@ -161,7 +159,7 @@
             // guna2Button5
             // 
             guna2Button5.BackColor = Color.Transparent;
-            guna2Button5.BorderRadius = 25;
+            guna2Button5.BorderRadius = 20;
             guna2Button5.CustomizableEdges = customizableEdges9;
             guna2Button5.DisabledState.BorderColor = Color.DarkGray;
             guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -170,14 +168,12 @@
             guna2Button5.FillColor = Color.FromArgb(209, 24, 45);
             guna2Button5.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             guna2Button5.ForeColor = Color.White;
-            guna2Button5.Image = (Image)resources.GetObject("guna2Button5.Image");
-            guna2Button5.Location = new Point(40, 650);
-            guna2Button5.Margin = new Padding(3, 4, 3, 4);
+            guna2Button5.Location = new Point(35, 488);
             guna2Button5.Name = "guna2Button5";
             guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Button5.Size = new Size(162, 52);
+            guna2Button5.Size = new Size(142, 39);
             guna2Button5.TabIndex = 5;
-            guna2Button5.Text = "Home";
+            guna2Button5.Text = "Back";
             guna2Button5.Click += guna2Button5_Click;
             // 
             // guna2Panel1
@@ -195,16 +191,14 @@
             guna2Panel1.CustomizableEdges = customizableEdges17;
             guna2Panel1.Dock = DockStyle.Left;
             guna2Panel1.Location = new Point(0, 0);
-            guna2Panel1.Margin = new Padding(3, 4, 3, 4);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2Panel1.Size = new Size(229, 730);
+            guna2Panel1.Size = new Size(200, 548);
             guna2Panel1.TabIndex = 1;
             // 
             // btnPrintAnnoucements
             // 
             btnPrintAnnoucements.BackColor = Color.Transparent;
-            btnPrintAnnoucements.BorderRadius = 23;
             btnPrintAnnoucements.CustomizableEdges = customizableEdges11;
             btnPrintAnnoucements.DisabledState.BorderColor = Color.DarkGray;
             btnPrintAnnoucements.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -213,19 +207,19 @@
             btnPrintAnnoucements.FillColor = Color.Transparent;
             btnPrintAnnoucements.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnPrintAnnoucements.ForeColor = Color.FromArgb(209, 24, 45);
-            btnPrintAnnoucements.Location = new Point(0, 565);
-            btnPrintAnnoucements.Margin = new Padding(3, 4, 3, 4);
+            btnPrintAnnoucements.HoverState.FillColor = Color.FromArgb(209, 24, 45);
+            btnPrintAnnoucements.HoverState.ForeColor = Color.White;
+            btnPrintAnnoucements.Location = new Point(-2, 334);
             btnPrintAnnoucements.Name = "btnPrintAnnoucements";
             btnPrintAnnoucements.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnPrintAnnoucements.Size = new Size(231, 64);
+            btnPrintAnnoucements.Size = new Size(202, 48);
             btnPrintAnnoucements.TabIndex = 9;
-            btnPrintAnnoucements.Text = "Announcements";
+            btnPrintAnnoucements.Text = "List of Orders";
             btnPrintAnnoucements.Click += btnPrintAnnoucements_Click;
             // 
             // btnPrintStaff
             // 
             btnPrintStaff.BackColor = Color.Transparent;
-            btnPrintStaff.BorderRadius = 23;
             btnPrintStaff.CustomizableEdges = customizableEdges13;
             btnPrintStaff.DisabledState.BorderColor = Color.DarkGray;
             btnPrintStaff.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -234,11 +228,12 @@
             btnPrintStaff.FillColor = Color.Transparent;
             btnPrintStaff.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnPrintStaff.ForeColor = Color.FromArgb(209, 24, 45);
-            btnPrintStaff.Location = new Point(-1, 326);
-            btnPrintStaff.Margin = new Padding(3, 4, 3, 4);
+            btnPrintStaff.HoverState.FillColor = Color.FromArgb(209, 24, 45);
+            btnPrintStaff.HoverState.ForeColor = Color.White;
+            btnPrintStaff.Location = new Point(0, 280);
             btnPrintStaff.Name = "btnPrintStaff";
             btnPrintStaff.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            btnPrintStaff.Size = new Size(231, 64);
+            btnPrintStaff.Size = new Size(202, 48);
             btnPrintStaff.TabIndex = 7;
             btnPrintStaff.Text = "Staffs";
             btnPrintStaff.Click += btnPrintStaff_Click;
@@ -246,7 +241,6 @@
             // btnPrintFeedbacks
             // 
             btnPrintFeedbacks.BackColor = Color.Transparent;
-            btnPrintFeedbacks.BorderRadius = 23;
             btnPrintFeedbacks.CustomizableEdges = customizableEdges15;
             btnPrintFeedbacks.DisabledState.BorderColor = Color.DarkGray;
             btnPrintFeedbacks.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -255,11 +249,12 @@
             btnPrintFeedbacks.FillColor = Color.Transparent;
             btnPrintFeedbacks.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnPrintFeedbacks.ForeColor = Color.FromArgb(209, 24, 45);
-            btnPrintFeedbacks.Location = new Point(0, 485);
-            btnPrintFeedbacks.Margin = new Padding(3, 4, 3, 4);
+            btnPrintFeedbacks.HoverState.FillColor = Color.FromArgb(209, 24, 45);
+            btnPrintFeedbacks.HoverState.ForeColor = Color.White;
+            btnPrintFeedbacks.Location = new Point(-2, 388);
             btnPrintFeedbacks.Name = "btnPrintFeedbacks";
             btnPrintFeedbacks.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnPrintFeedbacks.Size = new Size(231, 64);
+            btnPrintFeedbacks.Size = new Size(202, 48);
             btnPrintFeedbacks.TabIndex = 6;
             btnPrintFeedbacks.Text = "Feedbacks";
             btnPrintFeedbacks.Click += btnPrintFeedbacks_Click;
@@ -269,21 +264,23 @@
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(261, 28);
+            dataGridView1.Location = new Point(228, 22);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(1400, 690);
+            dataGridView1.Size = new Size(1225, 518);
             dataGridView1.TabIndex = 9;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // ADMIN_POTAL
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1673, 730);
+            BackgroundImage = Properties.Resources.Untitled_design__9_;
+            ClientSize = new Size(1199, 548);
             Controls.Add(dataGridView1);
             Controls.Add(guna2Panel1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "ADMIN_POTAL";
             Text = "RGO Lipa - Admin Portal";
             Load += Form4_Load;

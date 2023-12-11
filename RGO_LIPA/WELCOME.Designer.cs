@@ -113,9 +113,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(209, 24, 54);
-            label2.Location = new Point(16, 71);
+            label2.Location = new Point(41, 64);
             label2.Name = "label2";
-            label2.Size = new Size(316, 40);
+            label2.Size = new Size(245, 32);
             label2.TabIndex = 3;
             label2.Text = "Lorem ipsum dolor sit amet, consectetur \r\nadipiscing elit, sed do eiusmod tempor.";
             // 
@@ -126,7 +126,7 @@
             label1.ForeColor = Color.FromArgb(209, 24, 54);
             label1.Location = new Point(31, 35);
             label1.Name = "label1";
-            label1.Size = new Size(154, 36);
+            label1.Size = new Size(129, 29);
             label1.TabIndex = 2;
             label1.Text = "Welcome!";
             // 
@@ -175,7 +175,7 @@
             panel1.Size = new Size(277, 527);
             panel1.TabIndex = 5;
             // 
-            // Form1
+            // WELCOME
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackgroundImage = Properties.Resources.Untitled_design__9_;
@@ -184,7 +184,7 @@
             Controls.Add(panel1);
             Controls.Add(guna2Panel1);
             DoubleBuffered = true;
-            Name = "Form1";
+            Name = "WELCOME";
             Text = "Resources Generation Office - BSU Lipa ";
             WindowState = FormWindowState.Minimized;
             guna2Panel1.ResumeLayout(false);

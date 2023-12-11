@@ -54,11 +54,12 @@
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(79, 142);
+            dataGridView1.Location = new Point(69, 106);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(1020, 507);
+            dataGridView1.Size = new Size(892, 380);
             dataGridView1.TabIndex = 20;
             // 
             // guna2Panel2
@@ -70,14 +71,15 @@
             guna2Panel2.CustomizableEdges = customizableEdges3;
             guna2Panel2.Dock = DockStyle.Top;
             guna2Panel2.Location = new Point(0, 0);
+            guna2Panel2.Margin = new Padding(3, 2, 3, 2);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Panel2.Size = new Size(1167, 65);
+            guna2Panel2.Size = new Size(1021, 62);
             guna2Panel2.TabIndex = 16;
             // 
             // guna2Button1
             // 
-            guna2Button1.BorderRadius = 19;
+            guna2Button1.BorderRadius = 14;
             guna2Button1.CustomizableEdges = customizableEdges1;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -86,43 +88,44 @@
             guna2Button1.FillColor = Color.FromArgb(209, 24, 45);
             guna2Button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.HoverState.BorderColor = Color.Transparent;
-            guna2Button1.HoverState.FillColor = Color.FromArgb(0, 0, 0, 0);
+            guna2Button1.HoverState.BorderColor = Color.FromArgb(209, 24, 45);
+            guna2Button1.HoverState.CustomBorderColor = Color.FromArgb(209, 24, 45);
+            guna2Button1.HoverState.FillColor = Color.FromArgb(209, 24, 45);
             guna2Button1.HoverState.ForeColor = Color.White;
-            guna2Button1.HoverState.Image = Properties.Resources.add__1_1;
             guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.Location = new Point(16, 12);
+            guna2Button1.Location = new Point(13, 19);
+            guna2Button1.Margin = new Padding(3, 2, 3, 2);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button1.Size = new Size(57, 38);
+            guna2Button1.Size = new Size(50, 28);
             guna2Button1.TabIndex = 7;
             guna2Button1.Click += guna2Button1_Click;
             // 
             // guna2HtmlLabel1
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel1.ForeColor = Color.FromArgb(209, 24, 45);
-            guna2HtmlLabel1.Location = new Point(548, 25);
+            guna2HtmlLabel1.Location = new Point(480, 19);
+            guna2HtmlLabel1.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(53, 25);
+            guna2HtmlLabel1.Size = new Size(59, 27);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "ITEMS";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.image_removebg_preview__14_1;
-            pictureBox1.Location = new Point(79, 12);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(69, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(104, 49);
+            pictureBox1.Size = new Size(91, 37);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // btnUpdate
             // 
-            btnUpdate.BorderRadius = 23;
+            btnUpdate.BorderRadius = 17;
             btnUpdate.CustomizableEdges = customizableEdges5;
             btnUpdate.DisabledState.BorderColor = Color.DarkGray;
             btnUpdate.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -131,18 +134,21 @@
             btnUpdate.FillColor = Color.FromArgb(209, 24, 45);
             btnUpdate.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnUpdate.ForeColor = Color.White;
+            btnUpdate.HoverState.BorderColor = Color.FromArgb(209, 24, 45);
+            btnUpdate.HoverState.CustomBorderColor = Color.FromArgb(209, 24, 45);
             btnUpdate.Image = (Image)resources.GetObject("btnUpdate.Image");
-            btnUpdate.Location = new Point(867, 666);
+            btnUpdate.Location = new Point(758, 500);
+            btnUpdate.Margin = new Padding(3, 2, 3, 2);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnUpdate.Size = new Size(155, 46);
+            btnUpdate.Size = new Size(136, 34);
             btnUpdate.TabIndex = 18;
             btnUpdate.Text = "Update";
             btnUpdate.Click += btnUpdate_Click;
             // 
             // btnInsert1
             // 
-            btnInsert1.BorderRadius = 23;
+            btnInsert1.BorderRadius = 17;
             btnInsert1.CustomizableEdges = customizableEdges7;
             btnInsert1.DisabledState.BorderColor = Color.DarkGray;
             btnInsert1.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -151,28 +157,30 @@
             btnInsert1.FillColor = Color.FromArgb(209, 24, 45);
             btnInsert1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnInsert1.ForeColor = Color.White;
-            btnInsert1.HoverState.BorderColor = Color.Transparent;
-            btnInsert1.HoverState.FillColor = Color.FromArgb(0, 0, 0, 0);
+            btnInsert1.HoverState.BorderColor = Color.FromArgb(209, 24, 45);
+            btnInsert1.HoverState.CustomBorderColor = Color.FromArgb(209, 24, 45);
+            btnInsert1.HoverState.FillColor = Color.FromArgb(209, 24, 45);
             btnInsert1.HoverState.ForeColor = Color.White;
-            btnInsert1.HoverState.Image = Properties.Resources.add__1_1;
             btnInsert1.Image = (Image)resources.GetObject("btnInsert1.Image");
-            btnInsert1.Location = new Point(158, 666);
+            btnInsert1.Location = new Point(138, 500);
+            btnInsert1.Margin = new Padding(3, 2, 3, 2);
             btnInsert1.Name = "btnInsert1";
             btnInsert1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnInsert1.Size = new Size(155, 46);
+            btnInsert1.Size = new Size(136, 34);
             btnInsert1.TabIndex = 17;
             btnInsert1.Text = "Insert";
             btnInsert1.Click += btnInsert1_Click;
             // 
             // ITEMS
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1167, 730);
+            ClientSize = new Size(1021, 548);
             Controls.Add(dataGridView1);
             Controls.Add(guna2Panel2);
             Controls.Add(btnUpdate);
             Controls.Add(btnInsert1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ITEMS";
             Text = "Form7";
             Load += ITEMS_Load;
