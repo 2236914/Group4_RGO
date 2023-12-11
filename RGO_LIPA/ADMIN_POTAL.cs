@@ -171,6 +171,9 @@ namespace RGO_LIPA
             dataGridView.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
     }
 }
